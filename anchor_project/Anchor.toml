@@ -1,0 +1,31 @@
+[workspace]
+members = ["programs/*"]
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
+[features]
+seeds = true
+skip-lint = false
+
+[programs.devnet]
+blog = "3gsZTNkyfJnnTmvfKahT67Y8KY8iXUAqDSKvHkzkPPb3"
+
+[programs.localnet]
+blog = "3gsZTNkyfJnnTmvfKahT67Y8KY8iXUAqDSKvHkzkPPb3"
+
+
+[clusters]
+localnet = "http://127.0.0.1:8899"
+devnet = "https://api.devnet.solana.com"
+
+[test]
+startup_wait = 10000
+
+[toolchain]
+anchor_version = "0.31.1"
+

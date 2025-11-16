@@ -1,0 +1,91 @@
+{
+  "version": "0.1.0",
+  "name": "blog",
+  "instructions": [
+    {
+      "name": "initializeProfile",
+      "accounts": [
+        { "name": "profile", "isMut": true, "isSigner": false },
+        { "name": "author", "isMut": true, "isSigner": true },
+        { "name": "systemProgram", "isMut": false, "isSigner": false }
+      ],
+      "args": []
+    },
+    {
+      "name": "createPost",
+      "accounts": [
+        { "name": "profile", "isMut": true, "isSigner": false },
+        { "name": "post", "isMut": true, "isSigner": false },
+        { "name": "author", "isMut": true, "isSigner": true },
+        { "name": "systemProgram", "isMut": false, "isSigner": false }
+      ],
+      "args": [
+        { "name": "postId", "type": "u64" },
+        { "name": "title", "type": "string" },
+        { "name": "content", "type": "string" }
+      ]
+    },
+    {
+      "name": "updatePost",
+      "accounts": [
+        { "name": "profile", "isMut": false, "isSigner": false },
+        { "name": "post", "isMut": true, "isSigner": false },
+        { "name": "author", "isMut": false, "isSigner": true }
+      ],
+      "args": [
+        { "name": "postId", "type": "u64" },
+        { "name": "newTitle", "type": { "option": "string" } },
+        { "name": "newContent", "type": { "option": "string" } }
+      ]
+    },
+    {
+      "name": "deletePost",
+      "accounts": [
+        { "name": "profile", "isMut": false, "isSigner": false },
+        { "name": "post", "isMut": true, "isSigner": false },
+        { "name": "author", "isMut": true, "isSigner": true }
+      ],
+      "args": [
+        { "name": "postId", "type": "u64" }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "profile",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          { "name": "author", "type": "publicKey" },
+          { "name": "lastPostId", "type": "u64" }
+        ]
+      }
+    },
+    {
+      "name": "post",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          { "name": "author", "type": "publicKey" },
+          { "name": "id", "type": "u64" },
+          { "name": "title", "type": "string" },
+          { "name": "content", "type": "string" },
+          { "name": "createdAt", "type": "i64" },
+          { "name": "updatedAt", "type": "i64" }
+        ]
+      }
+    }
+  ],
+  "errors": [
+    { "code": 6000, "name": "InvalidNextPostId", "msg": "The provided post_id does not match the next valid id." },
+    { "code": 6001, "name": "TitleTooLong", "msg": "Title exceeds maximum length." },
+    { "code": 6002, "name": "ContentTooLong", "msg": "Content exceeds maximum length." },
+    { "code": 6003, "name": "Unauthorized", "msg": "Unauthorized action." },
+    { "code": 6004, "name": "Overflow", "msg": "Integer overflow occurred." }
+  ],
+  "metadata": {
+    "address": "3gsZTNkyfJnnTmvfKahT67Y8KY8iXUAqDSKvHkzkPPb3"
+  }
+}
+
+

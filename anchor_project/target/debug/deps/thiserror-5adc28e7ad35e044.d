@@ -1,0 +1,14 @@
+/Users/yuantian/Downloads/program-2298233831/anchor_project/target/debug/deps/thiserror-5adc28e7ad35e044.d: /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/lib.rs /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/aserror.rs /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/display.rs /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/var.rs /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/private.rs /Users/yuantian/Downloads/program-2298233831/anchor_project/target/debug/build/thiserror-e823eedef176c9c1/out/private.rs
+
+/Users/yuantian/Downloads/program-2298233831/anchor_project/target/debug/deps/libthiserror-5adc28e7ad35e044.rlib: /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/lib.rs /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/aserror.rs /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/display.rs /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/var.rs /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/private.rs /Users/yuantian/Downloads/program-2298233831/anchor_project/target/debug/build/thiserror-e823eedef176c9c1/out/private.rs
+
+/Users/yuantian/Downloads/program-2298233831/anchor_project/target/debug/deps/libthiserror-5adc28e7ad35e044.rmeta: /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/lib.rs /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/aserror.rs /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/display.rs /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/var.rs /Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/private.rs /Users/yuantian/Downloads/program-2298233831/anchor_project/target/debug/build/thiserror-e823eedef176c9c1/out/private.rs
+
+/Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/lib.rs:
+/Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/aserror.rs:
+/Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/display.rs:
+/Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/var.rs:
+/Users/yuantian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.17/src/private.rs:
+/Users/yuantian/Downloads/program-2298233831/anchor_project/target/debug/build/thiserror-e823eedef176c9c1/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/yuantian/Downloads/program-2298233831/anchor_project/target/debug/build/thiserror-e823eedef176c9c1/out

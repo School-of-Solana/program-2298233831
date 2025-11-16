@@ -1,0 +1,14 @@
+/Users/yuantian/Downloads/program-2298233831/anchor_project/target/release/deps/libserde-70d8eacc4ffab267.rmeta: /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/lib.rs /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/integer128.rs /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/mod.rs /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/de.rs /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/ser.rs /Users/yuantian/Downloads/program-2298233831/anchor_project/target/release/build/serde-aa65b807e4605054/out/private.rs
+
+/Users/yuantian/Downloads/program-2298233831/anchor_project/target/release/deps/libserde-70d8eacc4ffab267.rlib: /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/lib.rs /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/integer128.rs /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/mod.rs /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/de.rs /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/ser.rs /Users/yuantian/Downloads/program-2298233831/anchor_project/target/release/build/serde-aa65b807e4605054/out/private.rs
+
+/Users/yuantian/Downloads/program-2298233831/anchor_project/target/release/deps/serde-70d8eacc4ffab267.d: /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/lib.rs /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/integer128.rs /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/mod.rs /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/de.rs /Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/ser.rs /Users/yuantian/Downloads/program-2298233831/anchor_project/target/release/build/serde-aa65b807e4605054/out/private.rs
+
+/Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/lib.rs:
+/Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/integer128.rs:
+/Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/mod.rs:
+/Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/de.rs:
+/Users/yuantian/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/ser.rs:
+/Users/yuantian/Downloads/program-2298233831/anchor_project/target/release/build/serde-aa65b807e4605054/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/yuantian/Downloads/program-2298233831/anchor_project/target/release/build/serde-aa65b807e4605054/out
